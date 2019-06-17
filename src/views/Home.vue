@@ -23,16 +23,16 @@
 import Picture from '@jdplc/jd-components/sfc/Picture.vue';
 
 export default {
-  name: 'Dashboard',
+  name: 'Home',
 
   components: {
     Picture,
   },
 
   data: () => ({
-    className: 'dashboard',
+    className: 'home',
 
-    title: '[JD Component] Picture Test',
+    title: 'JD Picture Example',
 
     description: 'Set the outer container <span style="color: blue">(blue)</span> to <strong>display: flex</strong>.<br>If there is a div around each picture <span style="color: red">(red)</span>, then set a flex value on this container, i.e. <strong>flex: 1</strong>, <strong>flex: 0 0 25%</strong> etc.',
 
@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss">
-.dashboard {
+.home {
   .pictures__container {
     display: flex;
     border: 2px solid blue;

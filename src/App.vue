@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <Dashboard />
+    <Home />
   </div>
 </template>
 
 <script>
-import Dashboard from './views/Dashboard.vue';
+import Home from './views/Home.vue';
 
 export default {
   name: 'app',
 
   components: {
-    Dashboard,
+    Home,
   },
 };
 </script>
