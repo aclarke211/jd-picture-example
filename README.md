@@ -1,4 +1,7 @@
-# picture-test
+# jd-picture-example
+
+## Description
+Currently, when the 'Picture' component in used inside a container div (which has the property `display: flex`), we need to set some additional properties on the component to allow it to render correctly.
 
 ## Project setup
 ```
