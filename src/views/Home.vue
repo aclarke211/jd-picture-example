@@ -34,7 +34,7 @@ export default {
 
     title: 'JD Picture Example',
 
-    description: 'Set the outer container <span style="color: blue">(blue)</span> to <strong>display: flex</strong>.<br>If there is a div around each picture <span style="color: red">(red)</span>, then set a flex value on this container, i.e. <strong>flex: 1</strong>, <strong>flex: 0 0 25%</strong> etc.',
+    description: 'Set the outer container <span style="color: blue">(blue)</span> to <strong>display: flex</strong>.<br>If there is a div around each picture <span style="color: red">(red)</span>, then set a flex value on this div, i.e. <strong>flex: 1</strong>, <strong>flex: 0 0 25%</strong> etc.',
 
     content: {
       items: [
